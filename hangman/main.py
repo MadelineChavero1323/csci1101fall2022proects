@@ -1,4 +1,8 @@
 # Get the answer.
+import random
+import re
+
+
 pool_file = open("hangman-sample-answer-pool.txt")
 
 pool_answers = []
